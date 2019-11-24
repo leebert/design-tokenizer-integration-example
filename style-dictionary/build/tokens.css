@@ -1,0 +1,70 @@
+/**
+ * Do not edit directly
+ * Generated on Sun, 24 Nov 2019 21:22:32 GMT
+ */
+
+:root {
+  --style-color-text-standard: #353535;
+  --style-color-text-link: #42c9db;
+  --style-color-ui-warning: #fda34f;
+  --style-color-ui-background-gradient-stop-1: #ecf5ff;
+  --style-color-ui-background-gradient-stop-2: #faefff;
+  --style-color-ui-background-gradient-transform-1-stop-1: 0.00000;
+  --style-color-ui-background-gradient-transform-1-stop-2: 0.00000;
+  --style-color-ui-background-gradient-transform-1-stop-3: 0.00000;
+  --style-color-ui-background-gradient-transform-2-stop-1: 1.00000;
+  --style-color-ui-background-gradient-transform-2-stop-2: 1.00000;
+  --style-color-ui-background-gradient-transform-2-stop-3: 1.00000;
+  --style-color-button-default: #43c9dc;
+  --style-color-button-hover: #56def2;
+  --style-color-button-active: #3ab0c1;
+  --style-typography-text-large-font-name: Helvetica-Regular;
+  --style-typography-text-large-size: 24;
+  --style-typography-text-large-transform: none;
+  --style-typography-text-large-decoration: none;
+  --style-typography-text-large-letter-spacing: 0;
+  --style-typography-text-regular-font-name: Helvetica-Regular;
+  --style-typography-text-regular-size: 16;
+  --style-typography-text-regular-transform: none;
+  --style-typography-text-regular-decoration: none;
+  --style-typography-text-regular-letter-spacing: 0;
+  --style-typography-text-small-font-name: Helvetica-Regular;
+  --style-typography-text-small-size: 10;
+  --style-typography-text-small-transform: none;
+  --style-typography-text-small-decoration: none;
+  --style-typography-text-small-letter-spacing: 0;
+  --style-typography-text-x-small-font-name: Helvetica-Light;
+  --style-typography-text-x-small-size: 8;
+  --style-typography-text-x-small-transform: none;
+  --style-typography-text-x-small-decoration: none;
+  --style-typography-text-x-small-letter-spacing: 0;
+  --style-typography-button-font-name: Helvetica-Bold;
+  --style-typography-button-size: 10;
+  --style-typography-button-transform: uppercase;
+  --style-typography-button-decoration: none;
+  --style-typography-button-letter-spacing: 0;
+  --style-typography-link-font-name: Helvetica-Regular;
+  --style-typography-link-size: 12;
+  --style-typography-link-transform: none;
+  --style-typography-link-decoration: underline;
+  --style-typography-link-letter-spacing: 0;
+  --style-effect-ui-standard-dropshadow-type: DROP_SHADOW;
+  --style-effect-ui-standard-dropshadow-radius: 4;
+  --style-effect-ui-standard-dropshadow-color: #0000004c;
+  --style-effect-ui-standard-dropshadow-offset-x: 0;
+  --style-effect-ui-standard-dropshadow-offset-y: 4;
+  --style-effect-ui-soft-dropshadow-type: DROP_SHADOW;
+  --style-effect-ui-soft-dropshadow-radius: 8;
+  --style-effect-ui-soft-dropshadow-color: #00000033;
+  --style-effect-ui-soft-dropshadow-offset-x: 0;
+  --style-effect-ui-soft-dropshadow-offset-y: 4;
+  --style-grid-standard: 8;
+  --style-size-spacer-medium: 16;
+  --style-size-spacer-large: 24;
+  --style-size-spacer-x-large: 32;
+  --style-size-spacer-xx-large: 48;
+  --style-size-corner-radius-standard: 4;
+  --style-size-corner-radius-container: 8;
+  --style-size-border-button: 1;
+  --style-size-border-textfield: 2;
+}
