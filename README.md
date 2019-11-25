@@ -1,4 +1,4 @@
-# What?
+### What?
 A starter kit that demonstrates one way to integrate design tokens into your designer/developer pipeline.
 
 ### How?
