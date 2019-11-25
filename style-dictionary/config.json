@@ -2,7 +2,7 @@
     "source": ["properties/*.json"],
     "platforms": {
       "css": {
-        "transformGroup": "css",
+        "transformGroup": "custom/css",
         "buildPath": "build/",
         "files": [{
           "destination": "tokens.css",

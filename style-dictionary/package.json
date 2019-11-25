@@ -1,0 +1,28 @@
+{
+  "name": "design-tokenizer-custom-transformers",
+  "version": "1.0.0",
+  "description": "Customer transformers for genrating design tokens.",
+  "main": "build/index.js",
+  "files": [
+    "build",
+    "properties"
+  ],
+  "scripts": {
+    "build": "node ./build.js",
+    "clean": "rm -rf build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leebert/design-tokenizer-integration-example.git"
+  },
+  "author": "Lee Brenner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leebert/design-tokenizer-integration-example/issues"
+  },
+  "homepage": "https://github.com/leebert/design-tokenizer-integration-example#readme",
+  "devDependencies": {
+    "style-dictionary": "2.8.3"
+  }
+}

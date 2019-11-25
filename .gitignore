@@ -1,2 +1,5 @@
 .DS_Store
 design-tokenizer-integration-example.code-workspace
+build/
+node_modules/
+package-lock.json
