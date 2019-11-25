@@ -1,73 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
+        <meta charset="utf-8">
+        <title>Design Tokenizer Integration Example</title>
+        <meta name="description" content="An unopinionated example of integrating design tokens into your desginer/develope pipeline.">
+        <meta name="author" content="Lee Brenner">   
+        
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:300,400,800&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Design Tokenizer Integration Example</title>
-  <meta name="description" content="An unopinionated example of integrating design tokens into your desginer/develope pipeline.">
-  <meta name="author" content="Lee Brenner">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
-</head>
-<body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <header>
-      <img src="images/design-tokenizer-icon.png" alt="Design TOkenizer Icon">
-      <h2>Design Tokenzier Integration Example</h2>
-    </header>
-    <article class="row">
-      <section class="one-half column">
-        <ul>
-          <li><h4>The starter project demonstrates one possible way to integrate design tokens into your pipeline.</h4></li>
-          <li><button>I'm A Button!</button></li>
-        </ul>
-      </section>
-      <section class="one-half column">
-          <ul>
-            <li>To get started, install the Design Tokenizer plugin for Figma.</li>
-            <li>Next, install Style Dictionary.</li>
-            <li>This site is currently using <b>Style 1</b> from the example library.</li>
-            <li>Update the design tokens by navigating to the <b>Style 2</b> page and generate new design tokens using Design Tokenizer.</li>
-            <li>Save the tokens to <b>style-dictionary/properties</b>.</li>
-            <li>Run <b>"style-dictionary build"</b> to transform the tokens into CSS variables.</li>
-            <li>For this example, overwrite the <b>:root</b> body selector in <b>example-site/css/skeleton.css</b> with the contents of <b>style-dictionary/build/tokens.css</b>.</li>
-            <li>Save files and refresh the page to see the changes!</li>
-          </ul>
-        </section>
-    </article>
-    <footer>
-      <ul class="ul-links">
-        <li class="li-link"><a href="https://www.figma.com/c/plugin/767048666042724266">Design Tokenizer</a></li>
-        <li class="li-link"><a href="https://www.alegion.com">Alegion</a></li>
-        <li class="li-link"><a href="https://amzn.github.io/style-dictionary/#/">Style Dictionary</a></li>
-        <li class="li-link"><a href="http://www.getskeleton.com">Skeleton</a></li>
-        <li class="li-link"><a href="https://www.naptimeyay.com">Lee Brenner</a></li>
-      </ul>
-    </footer>
-  </div>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
+        <link rel="icon" type="image/png" href="images/favicon.png">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <img src="images/design-tokenizer-icon.png" alt="Design TOkenizer Icon">
+                <h1>Design Tokenzier Integration Example</h1>
+            </header>
+            <article>
+                <section>
+                    <h4>An example of integrating design tokens into your pipeline.</h4>
+                    <button>I'm A Button!</button>
+                </section>
+                <section>
+                    <ol>
+                        <li>To get started, install the Design Tokenizer plugin for Figma.</li>
+                        <li>Next, install Style Dictionary.</li>
+                        <li>This site is currently using the styles from the <b>Style 1</b> page in the example library.</li>
+                        <li>Make changes to the styles (or jump over to the <b>Style 2</b> page) and run Design Tokenizer to create new tokens.</li>
+                        <li>Save to <code>style-dictionary/properties</code>.</li>
+                        <li>Run <code>"style-dictionary build"</code> to transform the tokens into CSS variables.</li>
+                        <li>For this example, overwrite the <code>:root</code> body selector in <code>example-site/css/styles.css</code> with the contents of <code>style-dictionary/build/tokens.css</code>.</li>
+                        <li>Save files and refresh the page to see the changes!</li>
+                    </ol>
+                </section>
+            </article>
+            <footer>
+                <a href="https://www.figma.com/c/plugin/767048666042724266">Design Tokenizer</a>
+                <a href="https://www.alegion.com">Alegion</a>
+                <a href="https://amzn.github.io/style-dictionary/#/">Style Dictionary</a>
+                <a href="https://www.naptimeyay.com">Lee Brenner</a>
+            </footer>
+        </div>
+    </body>
 </html>

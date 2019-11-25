@@ -11,9 +11,8 @@ A starter kit that demonstrates one way to integrate design tokens into your des
 7. Copy-paste the variables into the CSS file. (see note about import bug)
 7. Profit $$$.
 
-### About the example 
+### About Style Dictionary 
 style-dictionary https://amzn.github.io/style-dictionary/#/
-skeleton https://github.com/dhg/Skeleton
 
 ### Example Design Library File
 Reference [this file](https://www.figma.com/file/4wWBG2jvrepyuV1cvOzsL3/ExampleDesignTokenLibrary) for an example of how to structure your non-standard Figma styles.
