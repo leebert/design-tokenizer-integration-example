@@ -1,0 +1,5 @@
+spacing: {
+    <% for(var i = 0; i < allProperties.length; i++) { %>
+        <%= allProperties[i].name %>: "<%= allProperties[i].value %>px"<% if (i < allProperties.length-1) { %>, <% } %>
+    <% } %>
+}

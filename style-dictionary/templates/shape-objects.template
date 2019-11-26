@@ -1,0 +1,6 @@
+shape: {
+    <% for(var i = 0; i < allProperties.length; i++) { %>
+        <% var name = allProperties[i].name === "default" ? "borderRadius" : "borderRadius" + allProperties[i].name.charAt(0).toUpperCase() + allProperties[i].name.substring(1); %>
+        <%= name %>: "<%= allProperties[i].value %>px"<% if (i < allProperties.length-1) { %>, <% } %>
+    <% } %>
+}

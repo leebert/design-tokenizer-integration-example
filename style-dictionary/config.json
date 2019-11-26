@@ -8,6 +8,20 @@
           "destination": "tokens.css",
           "format": "css/variables"
         }]
+      },
+      "js": {
+        "transformGroup": "custom/javascript",
+        "buildPath": "build/",
+        "files": [{
+          "destination": "spacing.js",
+          "filter": "isSpacer",
+          "format": "custom/spacing-objects"
+        },
+        {
+          "destination": "shape.js",
+          "filter": "isRadius",
+          "format": "custom/shape-objects"
+        }]
       }
     }
   }
