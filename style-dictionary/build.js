@@ -11,7 +11,9 @@ StyleDictionary.registerTransform({
   type: 'value',
   matcher: function(prop) {
       return prop.path.includes("size") || 
-             prop.path.includes("grid") || 
+             prop.path.includes("sectionSize") || 
+             prop.path.includes("gutterSize") || 
+             prop.path.includes("offset") || 
              prop.path.includes("letterSpacing") || 
              prop.path.includes("lineHeight") || 
              prop.path.includes("radius") || 
