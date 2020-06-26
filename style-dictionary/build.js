@@ -13,6 +13,7 @@ StyleDictionary.registerTransform({
       return prop.path.includes("size") || 
              prop.path.includes("grid") || 
              prop.path.includes("letterSpacing") || 
+             prop.path.includes("lineHeight") || 
              prop.path.includes("radius") || 
              prop.path.includes("offset-x") || 
              prop.path.includes("offset-y");
@@ -22,10 +23,21 @@ StyleDictionary.registerTransform({
   }
 });
 
+StyleDictionary.registerTransform({
+  name: 'custom-string/quotes', 
+  type: 'value',
+  matcher: function(prop) {
+      return prop.path.includes("fontName");
+  },
+  transformer: function(prop) {
+      return `"${prop.value}"`;
+  }
+});
+
 
 StyleDictionary.registerTransformGroup({
   name: 'custom/css',
-  transforms: ["attribute/cti", "name/cti/kebab", "custom-size/px", "color/css"]
+  transforms: ["attribute/cti", "name/cti/kebab", "custom-size/px", "custom-string/quotes", "color/css"]
 });
 
 // APPLY THE CONFIGURATION

@@ -11,7 +11,7 @@ A starter kit that demonstrates one way to integrate design tokens into your des
 1. Save the json file to `style-dictionary/properties`. 
 1. If you haven't already, navigate to `style-dictionary/` and run `npm install` to setup dependencies.
 1. Run `npm run build` to generate css variables, which are saved to `style-dictionary/build/tokens.css`. 
-1. Copy-paste the variables into the `:root` selector of `example-site/css/styles.css`.
+1. Copy-paste the content of `style-dictionary/build/tokens.css` into `example-site/css/tokens.css`.
 1. 💰💰💰.
 
 ### Huh?
