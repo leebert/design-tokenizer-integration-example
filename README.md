@@ -1,4 +1,4 @@
-![Banner Image](https://github.com/leebert/design-tokenizer-integration-example/blob/master/example-site/images/banner.png)
+![Banner Image](https://github.com/leebert/design-tokenizer-integration-example/blob/main/example-site/images/banner.png)
 
 ### What?
 A starter kit that demonstrates one way to integrate design tokens into your designer/developer pipeline.
