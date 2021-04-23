@@ -70,7 +70,7 @@ footer a:last-child { border-right: none; }
 
 h1, h2, h3, h4, h5, h6 { margin-top: 0; }
 h1 { 
-    font-size: 2.0rem;
+    font-size: calc(var(--style-typography-text-large-size) * 1.5);
     font-weight: 800;
 }
 
@@ -108,7 +108,6 @@ ul {
 }
 li { padding-bottom: var(--style-grid-standard); }
 
-/* Classes –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
     position: relative;
     width: 70%;
@@ -118,6 +117,22 @@ li { padding-bottom: var(--style-grid-standard); }
     border: none;
     border-radius: var(--style-size-corner-radius-container);
     box-shadow: var(--style-effect-ui-soft-dropshadow-offset-x) var(--style-effect-ui-soft-dropshadow-offset-y) var(--style-effect-ui-soft-dropshadow-radius) var(--style-effect-ui-soft-dropshadow-color); 
+}
+
+.large {
+    font-size: var(--style-typography-text-large-size);
+}
+
+.regular {
+    font-size: var(--style-typography-text-regular-size);
+}
+
+.small {
+    font-size: var(--style-typography-text-small-size);
+}
+
+.extra-small {
+    font-size: var(--style-typography-text-x-small-size);
 }
 
 /* Note: From Skeleton http://getskeleton.com */

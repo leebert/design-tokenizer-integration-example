@@ -20,18 +20,21 @@
             </header>
             <article>
                 <section>
-                    <h4>An example of integrating design tokens into your pipeline.</h4>
                     <button>I'm Just A Button</button>
+                    <p class="large">I'm some large text.</p>
+                    <p class="regular">I'm some regular text.</p>
+                    <p class="small">I'm some small text.</p>
+                    <p class="extra-small">I'm some extra-small text.</p>
                 </section>
                 <section>
                     <ol>
                         <li>To get started, install the Design Tokenizer <a href="https://www.figma.com/c/plugin/767048666042724266/Design-Tokenizer" target="_blank">plugin<a></a> for Figma.</li>
                         <li>Next, install <a href="https://amzn.github.io/style-dictionary/#/" target="_blank">Style Dictionary</a>.</li>
                         <li>Navigate to the <code>style-dictionary/</code> folder of this project and run <code>npm install</code> to set up required dependencies.</li>
-                        <li>This project is using the current styles generated from the <a href="https://www.figma.com/file/4wWBG2jvrepyuV1cvOzsL3/ExampleDesignTokenLibrary" target="_blank">example design library</a>. Open <code>example-site/index.html</code> to see what they look like.</li>
-                        <li>Make changes to the styles in the Figma file and run the Design Tokenizer plugin to create new tokens.</li>
+                        <li>This project is using the current styles generated from the <a href="https://www.figma.com/community/file/783470782787368414/Design-Tokenizer---Example-Design-Library" target="_blank">example design library</a>. Open <code>example-site/index.html</code> to see what they look like.</li>
+                        <li>Make changes to the styles in the Figma file and run the Design Tokenizer plugin to generate new tokens.</li>
                         <li>Save the JSON file to <code>style-dictionary/properties</code>.</li>
-                        <li>In <code>style-dictionary/</code> run <code>"npm run build"</code> to transform the tokens into CSS variables, saved to <code>style-dictionary/build/tokens.css</code>.</li>
+                        <li>In <code>style-dictionary/</code> run <code>"npm run build"</code> to transform the tokens into CSS variables, which are saved to <code>style-dictionary/build/tokens.css</code>.</li>
                         <li>For this example, copy-paste the contents of <code>style-dictionary/build/tokens.css</code> into <code>example-site/css/tokens.css</code>.</li>
                         <li>Save and refresh the page to see your changes. Now your cooking with design tokens! 🎉</li>
                     </ol>
